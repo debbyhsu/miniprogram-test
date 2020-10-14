@@ -1,0 +1,9 @@
+<!--pages/welcome/welcome.wxml-->
+
+<view class="container">
+  <l-avatar class="l-avatar" placement="bottom" size="200" open-data="{{['userAvatarUrl', 'userNickName']}}"/>
+  <text class="motto">Hello!</text>
+  <view class="journey-container">
+    <text class="journey">Mini Journey</text>
+  </view>
+</view>
